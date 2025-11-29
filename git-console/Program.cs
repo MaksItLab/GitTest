@@ -11,10 +11,16 @@ namespace git_console
         static void Main(string[] args)
         {
             TestMethod();
+            PrintUserId(1);
         }
         static void TestMethod()
         {
             Console.WriteLine("This is a test method.");
+        }
+        
+        static void PrintUserId(int id)
+        {
+            Console.WriteLine(id);
         }
     }
 }
